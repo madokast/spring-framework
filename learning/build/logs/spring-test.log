@@ -1,0 +1,2 @@
+20:43:19.579 [Test worker] INFO  c.a.FirstBeanTest - hello spring 5
+20:47:17.336 [Test worker] INFO  c.a.FirstBeanTest - car = this is a car

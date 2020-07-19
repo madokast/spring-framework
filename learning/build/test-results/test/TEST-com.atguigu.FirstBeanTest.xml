@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.atguigu.FirstBeanTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-15T12:52:05" hostname="DESKTOP-N2R9QDH" time="0.227">
+  <properties/>
+  <testcase name="bean()" classname="com.atguigu.FirstBeanTest" time="0.227"/>
+  <system-out><![CDATA[[com.atguigu.FirstBeanTest] (FirstBeanTest.java:42) INFO  - car = this is a car
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
