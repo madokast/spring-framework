@@ -38,6 +38,8 @@ import org.springframework.lang.Nullable;
  *
  * <p>Serves as base class for {@link AbstractBeanFactory}.
  *
+ * 2020年7月21日 工厂bean登记支持 扩展了单例登记处
+ *
  * @author Juergen Hoeller
  * @since 2.5.1
  */
@@ -46,6 +48,9 @@ public abstract class FactoryBeanRegistrySupport extends DefaultSingletonBeanReg
 	/** Cache of singleton objects created by FactoryBeans: FactoryBean name to object. */
 	private final Map<String, Object> factoryBeanObjectCache = new ConcurrentHashMap<>(16);
 
+	{
+		logger.info("FactoryBeanRegistrySupport(for register factory bean) init");
+	}
 
 	/**
 	 * Determine the type for the given FactoryBean.

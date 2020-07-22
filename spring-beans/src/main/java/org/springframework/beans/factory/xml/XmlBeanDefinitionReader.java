@@ -143,6 +143,7 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 	 */
 	public XmlBeanDefinitionReader(BeanDefinitionRegistry registry) {
 		super(registry);
+		logger.info("XmlBeanDefinitionReader:Create new XmlBeanDefinitionReader for the given bean factory");
 	}
 
 

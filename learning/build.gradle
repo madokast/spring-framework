@@ -16,7 +16,6 @@ repositories {
 }
 
 tasks.withType(JavaCompile) {
-    // ����: ���� GBK �Ĳ���ӳ���ַ� (0xB4)
     options.encoding = 'UTF-8'
 }
 

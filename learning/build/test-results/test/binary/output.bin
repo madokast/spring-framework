@@ -1,1 +1,7 @@
-Q[com.atguigu.FirstBeanTest] (FirstBeanTest.java:42) INFO  - car = this is a car
+test bean
+‡[org.springframework.beans.factory.support.DefaultListableBeanFactory] (SimpleAliasRegistry.java:58) INFO  - SimpleAliasRegistry init
+™[org.springframework.beans.factory.support.DefaultListableBeanFactory] (DefaultSingletonBeanRegistry.java:78) INFO  - DefaultSingletonBeanRegistry init
+°[org.springframework.beans.factory.support.DefaultListableBeanFactory] (FactoryBeanRegistrySupport.java:52) INFO  - FactoryBeanRegistrySupport(for register factory bean) init
+ˆ[org.springframework.beans.factory.support.DefaultListableBeanFactory] (AbstractBeanFactory.java:124) INFO  - AbstractBeanFactory init
+ç[org.springframework.beans.factory.support.DefaultListableBeanFactory] (DefaultListableBeanFactory.java:988) INFO  - BeanDefinitionRegistry:registerBeanDefinition beanName=car, beanDefinition={}Generic bean: class [com.atguigu.Car]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [first-bean.xml]
+Q[com.atguigu.FirstBeanTest] (FirstBeanTest.java:45) INFO  - car = this is a car

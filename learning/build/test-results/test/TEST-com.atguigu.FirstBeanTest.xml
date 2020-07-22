@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.atguigu.FirstBeanTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-15T12:52:05" hostname="DESKTOP-N2R9QDH" time="0.227">
+<testsuite name="com.atguigu.FirstBeanTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-22T05:25:09" hostname="DESKTOP-N2R9QDH" time="0.217">
   <properties/>
-  <testcase name="bean()" classname="com.atguigu.FirstBeanTest" time="0.227"/>
-  <system-out><![CDATA[[com.atguigu.FirstBeanTest] (FirstBeanTest.java:42) INFO  - car = this is a car
+  <testcase name="bean()" classname="com.atguigu.FirstBeanTest" time="0.217"/>
+  <system-out><![CDATA[test bean
+[org.springframework.beans.factory.support.DefaultListableBeanFactory] (SimpleAliasRegistry.java:58) INFO  - SimpleAliasRegistry init
+[org.springframework.beans.factory.support.DefaultListableBeanFactory] (DefaultSingletonBeanRegistry.java:78) INFO  - DefaultSingletonBeanRegistry init
+[org.springframework.beans.factory.support.DefaultListableBeanFactory] (FactoryBeanRegistrySupport.java:52) INFO  - FactoryBeanRegistrySupport(for register factory bean) init
+[org.springframework.beans.factory.support.DefaultListableBeanFactory] (AbstractBeanFactory.java:124) INFO  - AbstractBeanFactory init
+[org.springframework.beans.factory.support.DefaultListableBeanFactory] (DefaultListableBeanFactory.java:988) INFO  - BeanDefinitionRegistry:registerBeanDefinition beanName=car, beanDefinition={}Generic bean: class [com.atguigu.Car]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [first-bean.xml]
+[com.atguigu.FirstBeanTest] (FirstBeanTest.java:45) INFO  - car = this is a car
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

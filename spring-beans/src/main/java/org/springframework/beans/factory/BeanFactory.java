@@ -95,6 +95,10 @@ import org.springframework.lang.Nullable;
  * <li>a custom destroy-method definition
  * </ol>
  *
+ * 2020年7月21日  bean容器根接口
+ * 通过name拿到bean
+ *
+ *
  * @author Rod Johnson
  * @author Juergen Hoeller
  * @author Chris Beams
